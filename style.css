@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+header {
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.35);
+}
+.hero-img {
+  background-image: url(images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.logo {
+  color: #e62026;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.logo i {
+  color: white;
+  margin-right: 5px;
+}
+.navbar-custom ul li {
+  margin-left: 5px;
+}
+a.nav-link {
+  text-align: center;
+}
+.navbar-custom ul li a {
+  color: white !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-content {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.banner-content h1 {
+  color: #fff;
+  letter-spacing: 0px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 700;
+}
+.banner-content h4 {
+  color: #fff;
+}
+
+.content h3 {
+  color: #fff;
+  letter-spacing: 0px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 700;
+}
+.content p {
+  line-height: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.best-offer {
+  background: rgb(236, 65, 65);
+}
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  background: rgb(236, 65, 65);
+  color: white;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 16px 20px;
+}
+.card-title h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.services {
+  background: rgb(28, 28, 28);
+}
+
+.icon {
+  width: 25%;
+  color: rgb(236, 65, 65);
+  font-size: 35px;
+  text-align: center;
+}
+.icon-info {
+  width: 85%;
+  color: white;
+}
+.icon-div {
+  display: flex;
+}
+.fitness-studio {
+  background: rgb(39, 39, 39);
+  color: #888888;
+}
+.list li {
+  list-style: none;
+}
+.list li span {
+  margin-right: 10px;
+  font-weight: 700;
+  color: #e62026;
+  border: 1px solid;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+a.learn-more {
+  background-color: rgb(236, 65, 65);
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 7px 15px;
+}
+.contact-section {
+  color: #8c8c8c;
+  background: rgb(0, 0, 0);
+  border-bottom: 1px solid darkgrey;
+}
+.contact-section li {
+  list-style: none;
+}
+.contact-section h5 {
+  color: #d3d3d3;
+}
+.footer {
+  background: rgb(0, 0, 0);
+  color: #8c8c8c;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 960px) {
+  .hero-img {
+    width: 100%;
+    height: 100vh;
+  }
+  @media only screen and (max-width: 1440px) {
+    .hero-img {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  @media only screen and (max-width: 2000px) {
+    .hero-img {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .hero-img {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .hero-img {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+}
